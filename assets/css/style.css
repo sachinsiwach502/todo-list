@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F6F6F6;
+}
+
+.justfy-btwn {
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.input_card {
+    border: 2px solid rgba(0, 0, 0, 0.473);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.input {
+    width: 340px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+.content {
+    width: 498px;
+    min-height: 360px;
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+
+.heading {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+    border: none;
+    padding: 13px 34px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tsk {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    margin-top: 30px;
+}
+
+.w-h-30 {
+    width: 480px;
+    min-height: 70px;
+    border: 2px solid black;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    text-wrap: wrap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-cntr {
+    align-items: center;
+}
+
+.justfy-spave-btwn {
+    justify-content: space-between;
+
+}
+
+.text {
+    word-break: break-all;
+    max-width: 420px;
+}
+
+
+
+.remove-img {
+    cursor: pointer;
+}
+
+.check {
+    cursor: pointer;
+
+}
+
+
+
+
+.delete {
+    cursor: pointer;
+}
+
+.to-do {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
